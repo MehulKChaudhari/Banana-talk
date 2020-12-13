@@ -1,19 +1,17 @@
 :root {
     --primary: #F2C94C;
-    --black: #333333;
-    --width-break: 600px;
 }
 #top{
     background-color: var(--primary);
     text-align: center;
+    height: 70px;
+    background-image:url(37-379335_minions-huge-freebie-download-for-powerpoint-minions-svg.png) ;
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+
 }
 
-* {
-    box-sizing: border-box;
-}
-#top {
-    display: block;
-}
 body {
     margin: 0;
     font-family: 'Trebuchet MS', sans-seriff;
@@ -23,19 +21,37 @@ body {
     background-position: center;
     background-size: 82%;
 }
+#input{
+    background-color: rgb(230, 14, 14);
+    background-size: relative;
+    display: inline;
+    text-align: center;
+}
+#opt{
+    background-color: rgb(230, 14, 14);
+    background-size: relative;
+    display: inline;
+    text-align: center;
+}
+
 
 textarea{
-    width: 90%;
+    border: 2px solid;
+    width: 50%;
     display: block;
     margin: 1rem;
     padding: 4rem;
+    position: center;
 }
 #output{
-    border: 1px solid black;
+    box-sizing: border-box;
+    border: 3px solid black;
     height: 20vh;
-    width: 80%;
-    margin: 2rem;
-    padding: 2rem;
+    width: 50%;
+    margin: 1rem;
+    padding: 1.5rem;
+    overflow: scroll;
+    background-color: rgb(215, 252, 184);
 }
 
 #btn-translate{
@@ -55,6 +71,7 @@ textarea{
 }
 
 footer {
+    height: 15vh;
     position: fixed;
     bottom: 0;
     width: 100%;
