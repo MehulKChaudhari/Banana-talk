@@ -9,12 +9,13 @@
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
-
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 body {
     margin: 0;
-    font-family: 'Trebuchet MS', sans-seriff;
+    font-family: Lucida Bright;
     color: #333333;
     background-image: url(download.png);
     background-repeat: no-repeat;
